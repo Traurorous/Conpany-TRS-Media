@@ -50,6 +50,17 @@ a{
     text-decoration: none;
 }
 
+textarea{
+    width: 100%;
+    background-color: #2A2A5E;
+    color: #fff;
+    outline: none;
+    border: 1.5px solid #fff;
+    height: 400px;
+    font-size: 24px;
+    padding: 5px 5px;
+}
+
 
 /*LANDING PAGE*/
 
@@ -97,31 +108,29 @@ nav{
  color: #ffff;
 }
 
-.contact__button{
+.contact__link{
  padding: 12px 24px;
  background-color: #000000;
  border: none;
  border-radius: 50px;
  margin-right: 32px;
-}
-
-.contact__button--anchor{
-    color: #ffff;
-    text-decoration: none;
+ color: #ffffff;
 }
 
 .header__row{
     display: flex;
     width: 100%;
-    height: 100%;
-}
-
-header{
+    max-width: 1200px;
     margin-top: 48px;
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+}
+
+.header__container{
+display: flex;
+justify-content: center;
+width: 100%;
+height: calc(100% - 100px);
 }
 
 .header__text{
@@ -504,3 +513,149 @@ footer
 .number{
     color: #000000;
 }
+
+
+
+
+
+
+/*
+
+
+
+Contact page
+
+
+
+*/
+
+.contact__header{
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.img__container{
+    width: 100%;
+    height: 65%;
+}
+
+.contact__backdrop{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.super__header{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    width: 100%;
+    margin: 0 auto;
+    width: 500px;
+    height: 50px;
+    font-size: 82px;
+}
+
+.contact__column{
+    width: 100%;
+    height: 35%;
+}
+
+.contact__column{
+    display: flex;
+}
+
+.left__column{
+    height: 100%;
+    width: 50%;
+    background-color: #4D40FA;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.right__column{
+    height: 100%;
+    width: 50%;
+    background-color: #251ca9;
+    text-align: center;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__detail{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.lets__talk--container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.lets__talk--row{
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 48px;
+}
+
+.lets__talk--header__wrapper{
+    width: 100%;
+    text-align: center;
+}
+
+.Lets__talk--header{
+    font-size: 32px;
+    font-weight:lighter;
+    margin-bottom: 32px;
+}
+
+.Lets__talk--subheader{
+    font-size: 48px;
+    margin-bottom: 86px;
+}
+
+.questioniare{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 48px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left__half{
+    width: 50%;
+}
+
+.right__half{
+    width: 50%;
+    height: 100%;
+}
+
+.box{
+    margin-bottom: 24px;
+}
+
+.box__text{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.input__box{
+  width: 90%;
+  background-color: #2A2A5E;
+  height: 50px;
+  padding: 0px 5px;
+  border-style: none;
+  border: 1.5px solid #fff;
+  font-size: 24px;
+  color: #fff;
+}
+
+.input__box::placeholder {
+    font-size: 24px;
+}
+
