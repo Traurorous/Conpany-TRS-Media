@@ -7,6 +7,10 @@
  font-family: 'Roberto', 'san-serif';
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
  background: #1201F9;;
 }
@@ -106,6 +110,13 @@ nav{
  text-decoration: none;
  font-size: 18px;
  color: #ffff;
+ padding-bottom: 2px;
+ border-bottom: 2px solid transparent;
+ transition: all 500ms ease;
+}
+
+.nav__link--anchor:hover {
+    border-bottom: 2px solid #ffff;
 }
 
 .contact__link{
@@ -420,6 +431,7 @@ footer
 .footer__row{
     display: flex;
     justify-content: center;
+    width:  100%;
 }
 
 .footer__links{
@@ -445,7 +457,7 @@ footer
 
 .footer__wrapper{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
 }
@@ -672,4 +684,96 @@ Contact page
     border-radius: 50px;
     font-size: 20px;
     color: #000000;
+}
+
+/*
+
+
+Services
+
+
+
+
+*/
+
+.Services__container{
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.Services__row {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.Services__backdrop{
+    width: 100%;
+    height: 100%;
+}
+
+.Backdrop__header{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.Backdrop__wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.Backdrop__sub-header{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.sub__header{
+    font-size: 42px;
+}
+
+.Service__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+    padding: 0px 64px;
+}
+
+.Service__row{
+ width: 100%;
+ max-width: 1200px;
+}
+
+.service__wrapper{
+    width: 100%;
+    display: flex;    
+}
+
+.description{
+    width: 50%;
+}
+
+.image{
+    width: 50%;
+}
+
+.service__description--title{
+    width: 100%;
+    font-size: 42px;
+    margin-bottom: 48px;
+}
+
+.service__description{
+    font-size: 32px;
+    max-width: 500px;
+}
+
+.contact__footer{
+    margin-top: 0px;
+    border-radius: 0px;
 }

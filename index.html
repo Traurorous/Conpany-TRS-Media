@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/26a50bdc34.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <section id="landing-page">
@@ -17,21 +18,21 @@
            </div>
            <ul class="nav-link--list">
              <li class="nav-link">
-                 <a href="" class="nav__link--anchor">Home</a>
+                 <a href="#" class="nav__link--anchor">Home</a>
              </li> 
              <li class="nav-link">
-                 <a href="../" class="nav__link--anchor">About Us</a>
+                 <a href="#about__us" class="nav__link--anchor">About Us</a>
              </li> 
              <li class="nav-link">
-                 <a href="../" class="nav__link--anchor">Feature</a>
-             </li> 
-             </li> 
-             <li class="nav-link">
-                 <a href="./" class="nav__link--anchor">Services</a>
+                 <a href="#feature" class="nav__link--anchor">Features</a>
              </li> 
              </li> 
              <li class="nav-link">
-                 <a href="../" class="nav__link--anchor">FAQs</a>
+                 <a href="#services" class="nav__link--anchor">Services</a>
+             </li> 
+             </li> 
+             <li class="nav-link">
+                 <a href="#faqs" class="nav__link--anchor">FAQs</a>
              </li> 
             </ul>
             <a href="./contact.html" class="contact__link">Get in touch</a>
@@ -71,7 +72,7 @@
             </div>
         </section>
 
-        <section id="Features">
+        <section id="feature">
             <div class="features__container padding">
                 <div class="features__row container">
                     <h2 class="features__title title white">
@@ -107,7 +108,7 @@
             </div>
         </section>
 
-        <section id="SERVICES">
+        <section id="services">
          <div class="services__container margin padding">
            <div class="services__row ">
             <h2 class="service__title white title">
@@ -118,9 +119,7 @@
                     <h3 class="service__text white">
                         Comprehensive SEO Services
                     </h3>
-                    <button class="service__link">
-                        Learn More
-                    </button>
+                    <a href="./services.html#seo" class="service__link">Learn More</a>
                 </div>
             </div>
             <div class="service__column--wrapper">
@@ -128,9 +127,7 @@
                     <h3 class="service__text white">
                         Targeted PPC Campaigns
                     </h3>
-                    <button class="service__link">
-                        Learn More
-                    </button>
+                    <a href="./services.html#TargetedPPCCampaigns" class="service__link">Learn More</a>
                 </div>
             </div>
             <div class="service__column--wrapper">
@@ -138,9 +135,7 @@
                     <h3 class="service__text white">
                         Comprehensive Social Media Marketing
                     </h3>
-                    <button class="service__link">
-                        Learn More
-                    </button>
+                    <a href="./services.html#ComprehensiveSocialMediaMarketing" class="service__link">Learn More</a>
                 </div>
             </div>
             <div class="service__column--wrapper">
@@ -148,9 +143,7 @@
                     <h3 class="service__text white">
                         Professional Web Design & Development
                     </h3>
-                    <button class="service__link"> 
-                        Learn More
-                    </button>
+                    <a href="./services.html#ProfessionalWebDesign&Development" class="service__link">Learn More</a>
                 </div>
             </div>
             <div class="service__column--wrapper">
@@ -158,9 +151,7 @@
                     <h3 class="service__text white">
                         Engaging Content Marketing
                     </h3>
-                    <button class="service__link">
-                        Learn More
-                    </button>
+                    <a href="./services.html#EngagingContentMarketing" class="service__link">Learn More</a>
                 </div>
             </div>
            </div>
@@ -210,11 +201,11 @@
             </div>
            </div>
 
-           <section id="SERVICES">
+           <section id="faqs">
             <div class="services__container">
               <div class="services__row padding">
                <h2 class="service__title white title">
-                   OUR SERVICES
+                   FAQs
                </h2>
                <div class="FAQ__column--wrapper">
                 <div class="FAQ__column">
@@ -275,27 +266,16 @@
             <div class="footer__container">
               <div class="footer__row"> 
                 <div class="footer__wrapper">
-                    <div class="footer__column restrain">
-                        <div class="footer__head">
-                          <p class="footer__header">Services</p>
-                        </div>
-                        <div class="footer__links">
-                            <a href="" class="footer__link">South Africa , Durban
-                                225 15th Street, office 485.</a>
-                            <a href="" class="footer__link">TRS@gmail.com</a>
-                            <a href="" class="footer__link number">+27 83 305 4921</a>
-                        </div>
-                    </div>
                     <div class="footer__column">
                         <div class="footer__head">
                           <p class="footer__header">Links</p>
                         </div>
                         <div class="footer__links">
-                            <a href="" class="footer__link">Home</a>
-                            <a href="" class="footer__link">Services</a>
-                            <a href="" class="footer__link">Features</a>
-                            <a href="" class="footer__link">Contact</a>
-                            <a href="" class="footer__link">About Us</a>
+                            <a href="#landing-page" class="footer__link">Home</a>
+                            <a href="#services" class="footer__link">Services</a>
+                            <a href="#feature" class="footer__link">Features</a>
+                            <a href="./contact.html" class="footer__link">Contact</a>
+                            <a href="#landing-page" class="footer__link">About Us</a>
                         </div>
                     </div>
                     <div class="footer__column">
@@ -312,13 +292,12 @@
                     </div>
                     <div class="footer__column">
                         <div class="footer__head">
-                          <p class="footer__header">Resources</p>
+                          <p class="footer__header">Legal</p>
                         </div>
                         <div class="footer__links">
-                            <a href="" class="footer__link">Blog</a>
-                            <a href="" class="footer__link">Portfolio</a>
+                            <a href="" class="footer__link">Privacy Statement</a>
+                            <a href="" class="footer__link" >Terms & Services </a>
                             <a href="" class="footer__link">Our Services</a>
-                            <a href="" class="footer__link">About </a>
                         </div>
                     </div>
                 </div>
@@ -328,26 +307,24 @@
                 <div  class="lower__footer--container">
                     <div class="lower__footer--row">
                         <div class="right__column">
-                            <a href="" class="privacy__statement black">Privacy Policy</a>
-                            <p class="rights grey">@ 2023 All Rights Reserved </p>
+                            <p class="rights grey">@ 2023 TRS-Media. All Rights Reserved. </p>
                         </div>
                         <div class="socials__column">
-                            <p class="grey footer__text">Find Us Here:</p>
-                            <a href="https://www.instagram.com/trsmedia1/">
+                            <a href="https://www.instagram.com/trsmedia1/" target="_blank">
                                 <div class="social__wrapper">
                                 <i class="fa-brands fa-instagram social"></i>
                             </div>
                             </a>
-                            <a href="https://www.facebook.com/profile.php?id=100089164403799&mibextid=ZbWKwL">
+                            <a href="https://www.facebook.com/profile.php?id=100089164403799&mibextid=ZbWKwL" target="_blank">
                                 <div class="social__wrapper">
                                 <i class="fa-brands fa-facebook-f social"></i>
                             </div>
                             </a>
-                            <a href="">
-                                 <div class="social__wrapper">
-                                <a href=""><i class="fa-brands fa-whatsapp social"></i></a>
-                                </div>
-                            </a>
+                            <a href="https://twitter.com/TRSMedia999?s=09" target="_blank">
+                                <div class="social__wrapper">
+                               <a href=""><i class="fa-brands fa-twitter social"></i></a>
+                               </div>
+                           </a>
                         </div>
                     </div>
                 </div>
