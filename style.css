@@ -282,7 +282,7 @@ SERVICES and FAQ
     
 }
 
-.FAQ__column--wrapper{
+.faq{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -311,10 +311,7 @@ SERVICES and FAQ
 
 .FAQ__column{
     width: 100%;
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    max-width: 1000px;
     padding: 24px 0px 10px 0px;
     margin-bottom: 32px;
     border-bottom: 3px solid #ffffff;
@@ -330,7 +327,7 @@ SERVICES and FAQ
 
 .service__link{
     padding: 12px 32px;
-    color: #ffff;
+    color: #fff;
     font-size: 18px;
     background-color: #000000;
     border: none;
@@ -341,28 +338,39 @@ SERVICES and FAQ
     cursor: pointer;
 }
 
-.arrow__wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 45px;
-    height: 45px;
-    background-color: #ffffff;
-    border-radius: 50px;
-    transition: all 300ms ease;
+.accordion{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;}
+
+.accordion-item{
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;}
+
+
+.accordion-title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
-.arrow__wrapper:hover{
-    background-color: #bebebe;
-    cursor: pointer;
+.accordion-title::after{
+  content: "+";
+  font-size: 24px;
+  margin-left: auto;
 }
 
-.fa-angle-up{
-    font-size: 26px;
-    transition: all 300ms ease;
+.active-header:after{
+    content: "-";
 }
 
-
+.accordion-answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: 1000ms ease max-height;
+}
 /*
 
 Achievement and 
